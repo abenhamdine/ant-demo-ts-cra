@@ -72,6 +72,12 @@ Run `yarn start` to check if everything is fine.
 
 ### Step 5 : use plugins and loaders
 
+Now we need babel and some additional plugins to : 
+- import antd components and according styles on demand
+- have babel settings for react
+- modify less variables
+- transpile typescript/tsx to js, jsx
+
 ```
 yarn add babel-core babel-plugin-import babel-preset-react-app awesome-typescript-loader react-app-rewire-less --dev
 ```
