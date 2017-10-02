@@ -123,6 +123,16 @@ modify config-overrides.js like this :
 +}
 ```
 
+### Step 7 : edit tsconfig.json
+
+```dif
++ "allowSyntheticDefaultImports": true
+```
+
+If you don't do this, you will get error:  
+`JSX element type [WhicheverAntdComponentYouTryToUse] is not a constructor function for JSX elements.
+  Property 'setState' is missing in type [xxx].`
+
 ### Step 7 : add .babelrc
 
 Create this file at root of project:  
