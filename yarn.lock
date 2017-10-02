@@ -5510,9 +5510,9 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-app-rewire-less@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/react-app-rewire-less/-/react-app-rewire-less-2.0.6.tgz#f15af57a4d78b46b101879e050844ea5bd6ae3ab"
+react-app-rewire-less@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/react-app-rewire-less/-/react-app-rewire-less-2.0.7.tgz#5912c4e07f326a91c161ee8b01adc55e537a151a"
   dependencies:
     less "^2.7.2"
     less-loader "^4.0.3"
