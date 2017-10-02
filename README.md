@@ -58,7 +58,7 @@ Modify the scripts field in package.json.
 }
 ```
 
-Create a file config-overrides.js at the root and edit as following : 
+In order to override webpack config without ejecting, create a file config-overrides.js at the root and edit as following : 
 
 ```ts
 module.exports = function override(config, env) {
@@ -66,7 +66,7 @@ module.exports = function override(config, env) {
 }
 ```
 
-*Note: we will add a real configuration later, we just let this file blank now to check if react-app-rewired is installed and if our react app is still ok.*
+*Note: we will add a real webpack configuration override later, we just let this file blank now to check if react-app-rewired is installed and if our react app is still ok.*
 
 Run `yarn start` to check if everything is fine.
 
