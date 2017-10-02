@@ -72,7 +72,7 @@ Run `yarn start` to check if everything is fine.
 
 ### Step 5 : install ant-design
 
-This one is an easy one:
+This one is an easy one:  
 `yarn add antd`
 
 ### Step 6 : use plugins and loaders
