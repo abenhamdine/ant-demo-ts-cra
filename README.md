@@ -5,7 +5,7 @@ Based on https://github.com/comerc/cra-ts-antd and https://ant.design/docs/react
 ### Step 1
 
 ```
-npm install -g create-react-app
+yarn global add create-react-app
 ```
 
 ### Step 2
