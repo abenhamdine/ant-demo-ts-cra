@@ -125,6 +125,8 @@ modify config-overrides.js like this :
 
 ### Step 7 : add .babelrc
 
+Create this file at root of project:  
+
 ```diff
 + {
 + 	"presets": [
@@ -145,7 +147,7 @@ modify config-overrides.js like this :
 ### Step 8 : add file main.less : 
 
 This file is needed to customize antd theme with less.  
-Create file src/resources/main.less : 
+Create the file src/resources/main.less with this line: 
 ```diff
 + import "~antd/dist/antd.less"; // import official less entry file
 ```
