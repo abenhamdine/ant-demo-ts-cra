@@ -70,7 +70,12 @@ module.exports = function override(config, env) {
 
 Run `yarn start` to check if everything is fine.
 
-### Step 5 : use plugins and loaders
+### Step 5 : install ant-design
+
+This one is an easy one:
+`yarn add antd`
+
+### Step 6 : use plugins and loaders
 
 Now we need babel and some additional plugins to : 
 - import antd components and according styles on demand
@@ -118,7 +123,7 @@ modify config-overrides.js like this :
 +}
 ```
 
-### Step 6 : add .babelrc
+### Step 7 : add .babelrc
 
 ```diff
 + {
@@ -137,15 +142,16 @@ modify config-overrides.js like this :
 + }
 ```
 
-### Step 7 : add file main.less : 
+### Step 8 : add file main.less : 
 
+This file is needed to customize antd theme with less.  
 Create file src/resources/main.less : 
 ```diff
 + import "~antd/dist/antd.less"; // import official less entry file
 ```
 
 
-### Step 8 : test antd app : 
+### Step 9 : test antd app : 
 
 Modify App.tsx
 
