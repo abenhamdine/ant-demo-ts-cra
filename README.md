@@ -58,6 +58,18 @@ Modify the scripts field in package.json.
 }
 ```
 
+Create a file config-overrides.js at the root and edit as following : 
+
+```ts
+module.exports = function override(config, env) {
+	return config
+}
+```
+
+*Note: we will add a real configuration later, we just let this file blank now to check if react-app-rewired is installed and if our react app is still ok.*
+
+Run `yarn start` to check if everything is fine.
+
 ### Step 5 : use plugins and loaders
 
 ```
