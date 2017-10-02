@@ -604,9 +604,9 @@ babel-plugin-dynamic-import-node@1.0.2:
     babel-template "^6.24.1"
     babel-types "^6.24.1"
 
-babel-plugin-import@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.4.0.tgz#a9999d9a79fc52a03c17ccfbbeb804038590503f"
+babel-plugin-import@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.6.0.tgz#925872e01ecc1e50513bdebb52432db27545c1ae"
 
 babel-plugin-istanbul@^4.0.0, babel-plugin-istanbul@^4.1.4:
   version "4.1.4"
