@@ -2,6 +2,8 @@
 
 Based on https://github.com/comerc/cra-ts-antd and https://ant.design/docs/react/use-with-create-react-app
 
+### CAUTION : this project only works with create-react-app-typescript 2.6.0 (react-scripts@1.0.10). It's apparently broken with create-react-app-typescript 2.7.0 (react-scripts@1.0.13). To investigate.
+
 ### Step 1
 
 ```
