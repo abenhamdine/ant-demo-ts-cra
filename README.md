@@ -125,7 +125,7 @@ modify config-overrides.js like this :
 
 ### Step 7 : edit tsconfig.json
 
-```dif
+```diff
 + "allowSyntheticDefaultImports": true
 ```
 
@@ -133,7 +133,7 @@ If you don't do this, you will get error:
 `JSX element type [WhicheverAntdComponentYouTryToUse] is not a constructor function for JSX elements.
   Property 'setState' is missing in type [xxx].`
 
-### Step 7 : add .babelrc
+### Step 8 : add .babelrc
 
 Create this file at root of project:  
 
@@ -154,7 +154,7 @@ Create this file at root of project:
 + }
 ```
 
-### Step 8 : add file main.less : 
+### Step 9 : add file main.less : 
 
 This file is needed to customize antd theme with less.  
 Create the file src/resources/main.less with this line: 
@@ -163,7 +163,7 @@ Create the file src/resources/main.less with this line:
 ```
 
 
-### Step 9 : test antd app : 
+### Step 10 : test antd app : 
 
 Modify App.tsx
 
