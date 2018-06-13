@@ -10,21 +10,21 @@
   version "8.10.19"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.19.tgz#66b5b6325c048cbf4512b7a88b0e79c2ee99d3d2"
 
-"@types/react-dom@15.5.4":
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.4.tgz#3f75ba86a2ce9a7d1d9e7d1ee3f186f3a9652d8f"
+"@types/react-dom@15.5.7":
+  version "15.5.7"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.7.tgz#a5c1c8b315e925d84d59db5ee88ca7e31c5030f9"
   dependencies:
-    "@types/react" "*"
-
-"@types/react@*":
-  version "16.0.5"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.5.tgz#d713cf67cc211dea20463d2a0b66005c22070c4b"
+    "@types/react" "^15"
 
 "@types/react@16.3.17":
   version "16.3.17"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.17.tgz#d59d1a632570b0713946ed9c2949d994773633c5"
   dependencies:
     csstype "^2.2.0"
+
+"@types/react@^15":
+  version "15.6.16"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.16.tgz#35f62d2f34e1fa3af390b7fb70d0ff88ff3c5d22"
 
 abab@^1.0.3:
   version "1.0.3"
