@@ -6,9 +6,9 @@
   version "20.0.8"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-20.0.8.tgz#7f8c97f73d20d3bf5448fbe33661a342002b5954"
 
-"@types/node@8.0.25":
-  version "8.0.25"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.25.tgz#66ecaf4df93f5281b48427ee96fbcdfc4f0cdce1"
+"@types/node@8.10.19":
+  version "8.10.19"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.19.tgz#66b5b6325c048cbf4512b7a88b0e79c2ee99d3d2"
 
 "@types/react-dom@15.5.4":
   version "15.5.4"
