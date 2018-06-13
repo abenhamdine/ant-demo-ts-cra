@@ -17,7 +17,7 @@
     "babel-preset-react-app": "3.1.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
-    "react-scripts-ts": "2.6.0"
+    "react-scripts-ts": "2.16.0"
   },
   "scripts": {
     "start": "react-app-rewired start --scripts-version react-scripts-ts",
