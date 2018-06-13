@@ -14,7 +14,7 @@
     "babel-plugin-import": "1.6.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
-    "babel-preset-react-app": "3.0.2",
+    "babel-preset-react-app": "3.1.1",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-scripts-ts": "2.6.0"
