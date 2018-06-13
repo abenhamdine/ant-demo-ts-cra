@@ -5573,9 +5573,9 @@ react-app-rewire-less@2.1.1:
     less "^2.7.3"
     less-loader "^4.0.5"
 
-react-app-rewired@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-1.3.1.tgz#003a9a794f34872cc823f239b4a42f55158418af"
+react-app-rewired@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-1.5.2.tgz#0f5cdbc92f47f166bb0bcadf8a5d00999b90f68f"
   dependencies:
     cross-spawn "^5.1.0"
     dotenv "^4.0.0"
